@@ -319,5 +319,6 @@ h2 { font-size: clamp(2rem, 4vw, 3.1rem); }
   .hero-title .line > span { transform: none !important; animation: none !important; }
   .spec-cap { transition: none !important; }
   .swatch, .btn, .piece, .theme-btn { transition: none !important; }
+  .draw-canvas { cursor: default; } /* drag-to-inspect is disabled under reduced motion */
   * { scroll-behavior: auto !important; }
 }
